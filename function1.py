@@ -1,11 +1,11 @@
 def vamp(buying,selling):
-    acprofit=selling-buying
-    print('so youprofited: ',acprofit)
-    return acprofit
+    actual_profit=selling-buying
+    print('so you profited: ',actual_profit)
+    return actual_profit
 
 
-y=100
-z=200
+y=float(input('input buying price: '))
+z=float(input('input selling price: '))
 
 
 x=vamp(y,z)
